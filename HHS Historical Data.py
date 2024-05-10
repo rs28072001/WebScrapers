@@ -1,6 +1,7 @@
 # This script fetches all the press releases urls from DEPT of U.S. Department of Health and Human Services Office of Inspector General website
 # and scrape them to store required data to ES to be used as part of violation tracker.
 # Dependency: pip install beautifulsoup4,requests,elasticsearch~=7.6.0
+# First Install All the Modules
 
 # importing required modules
 import os,sys,logging,time,traceback,hmac,hashlib,binascii,requests,datetime
