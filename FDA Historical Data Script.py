@@ -4,6 +4,7 @@
 # from DEPT. of US Food & Drug Administration Criminal Division Portal
 # and ingest the same to Elasticsearch under Violation Tracker.
 # Dependency: pip install beautifulsoup4,selenium==4.2.0,webdriver-manager,requests,elasticsearch~=7.6.0
+# First Install All the Modules
 
 # importing modules
 import os,sys,logging,time,traceback,hmac,hashlib,binascii,requests,pytz
