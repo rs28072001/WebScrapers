@@ -1,7 +1,7 @@
 # This script fetches all the press releases urls from DEPT of US Food & Drug Administration Criminal Division website
 # and scrape them to store required data to ES to be used as part of violation tracker.
 # Dependency: pip install beautifulsoup4,selenium==4.2.0,webdriver-manager,customtkinter,requests,elasticsearch~=7.6.0
-# First Install All the Modules
+# First Install All the Module
 
 # importing required modules
 import os,sys,logging,time,traceback,hmac,hashlib,binascii,requests,pytz
